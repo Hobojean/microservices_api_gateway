@@ -3,12 +3,16 @@
 
 
 return [
-    'api_lumen' => [
-        'base_uri' => env('APILUMEN_SERVICE_BASE_URI'),
-        'secret' => env('APILUMEN_SERVICE_SECRET')
+    'message' => [
+        'base_uri' => env('MESSAGE_SERVICE_BASE_URI'),
+        'secret' => env('MESSAGE_SERVICE_SECRET')
     ],
-    'api_express' => [
-        'base_uri' => env('APIEXPRESS_SERVICE_BASE_URI'),
-        'secret' => env('APIEXPRESS_SERVICE_SECRET'),
+    'user' => [
+        'base_uri' => env('USER_SERVICE_BASE_URI'),
+        'secret' => env('USER_SERVICE_SECRET')
+    ],
+    'discussion' => [
+        'base_uri' => env('DISCUSSION_SERVICE_BASE_URI'),
+        'secret' => env('DISCUSSION_SERVICE_SECRET'),
     ]
 ];
